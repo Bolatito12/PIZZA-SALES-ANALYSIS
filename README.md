@@ -4,6 +4,9 @@ This project focuses on analyzing pizza sales data to uncover key insights about
 ## Project Objective:
 The objective of this project is to analyze pizza sales data to gain insights into sales performance, customer preferences, and operational efficiency. This will be achieved through data visualization and reporting using Power BI.
 
+# Data Used
+-	<a href="https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=PIZZA">Dataset</a>
+
 ## Key Problems
 1. How many customers do we have each day? Are there any peak hours?
 
