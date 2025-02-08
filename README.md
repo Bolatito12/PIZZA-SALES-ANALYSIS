@@ -77,3 +77,6 @@ Relationships were established based on primary and foreign keys:
 
 - Revenue per Month = [Total Revenue]/DISTINCTCOUNT(orders[month])
 
+  <img width="885" alt="new pizza" src="https://github.com/user-attachments/assets/5211d160-aeb6-489a-9164-588ab02ad56d" />
+
+
