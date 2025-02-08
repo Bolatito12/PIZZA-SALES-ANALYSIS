@@ -82,16 +82,23 @@ Relationships were established based on primary and foreign keys:
 
 
   ##Key Insights & Business Implications
-1️⃣ Sales Performance Analysis
+1️ Sales Performance Analysis
+
 Total Revenue: $817.86K
+
 Indicates a strong sales performance, but further analysis is needed to understand peak periods and slow seasons.
+
 Average Order Value: $38.31
+
 Helps in setting pricing strategies and upselling opportunities.
+
 Revenue Per Day: $2.28K
+
 Gives insight into daily sales trends and whether promotions or discounts impact daily revenue.
+
 🔹 Problem Solved: Helps in understanding overall financial performance and making pricing adjustments if necessary.
 
-2️⃣ Revenue & Order Trends
+2️  Revenue & Order Trends
 Revenue by Month:
 Shows fluctuations, with peaks in July ($73K) and dips in October ($64K).
 Identifies seasonality trends, which can be used to optimize promotions and marketing efforts.
