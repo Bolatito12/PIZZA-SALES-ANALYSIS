@@ -81,7 +81,8 @@ Relationships were established based on primary and foreign keys:
 
 
 
-  ##Key Insights & Business Implications
+  ## Key Insights & Business Implications
+  
 1️ Sales Performance Analysis
 
 Total Revenue: $817.86K
@@ -99,14 +100,20 @@ Gives insight into daily sales trends and whether promotions or discounts impact
 🔹 Problem Solved: Helps in understanding overall financial performance and making pricing adjustments if necessary.
 
 2️  Revenue & Order Trends
+
 Revenue by Month:
 Shows fluctuations, with peaks in July ($73K) and dips in October ($64K).
+
 Identifies seasonality trends, which can be used to optimize promotions and marketing efforts.
+
 Total Orders by Hour:
 Peak order times are around 12 PM - 2 PM and 6 PM - 8 PM.
+
 Suggests higher demand during lunch and dinner hours.
+
 Order by Day:
 Friday (3.5K orders) and Saturday (3.2K orders) are the busiest days, indicating a weekend sales boost.
+
 🔹 Problem Solved: Helps in scheduling staff efficiently, optimizing marketing for peak hours, and running targeted promotions during slow periods.
 
 3️⃣ Product Performance & Preferences
