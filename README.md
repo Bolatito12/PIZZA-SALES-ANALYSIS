@@ -21,7 +21,7 @@ The objective of this project is to analyze pizza sales data to gain insights in
 ## Data Cleaning  and Transformation
 In this Pizza Sales Analysis project, tables were joined using data modeling in Power BI to establish relationships between different datasets. The goal was to create a structured model that enables efficient data analysis and reporting.
 
-##Identifying Key Tables
+## Identifying Key Tables
 The dataset contained multiple tables, including:
 
 •	Orders Table – Contains order details such as order ID and Date.
@@ -55,25 +55,25 @@ Relationships were established based on primary and foreign keys:
 ## Created Measures in DAX
  – KPIs such as Total Sales, Average Order , and Popular Pizza Type were calculated using DAX in Power BI.
 
-price = RELATED(pizza[price])
+- price = RELATED(pizza[price])
 
-count of pizza = COUNTA(pizza[Pzza Type])
+- count of pizza = COUNTA(pizza[Pzza Type])
 
-Total Price = OrderDetails[Quantity]*OrderDetails[price]
+- Total Price = OrderDetails[Quantity]*OrderDetails[price]
 
-Total Revenue = SUM(OrderDetails[Total Price])
+- Total Revenue = SUM(OrderDetails[Total Price])
 
-Total Order = COUNTA(orders[order_id])
+- Total Order = COUNTA(orders[order_id])
 
-Average order = [Total Revenue]/[Total Order]
+- Average order = [Total Revenue]/[Total Order]
 
-Order per day = [Total Order]/DISTINCTCOUNT(orders[date].[Date])
+- Order per day = [Total Order]/DISTINCTCOUNT(orders[date].[Date])
 
-Order per month = [Total Order]/DISTINCTCOUNT(orders[Month])
+- Order per month = [Total Order]/DISTINCTCOUNT(orders[Month])
 
-Order per quarter = [Total Order]/DISTINCTCOUNT(orders[Quarter])
+- Order per quarter = [Total Order]/DISTINCTCOUNT(orders[Quarter])
 
-Revenue per Day = [Total Revenue]/DISTINCTCOUNT(orders[date])
+- Revenue per Day = [Total Revenue]/DISTINCTCOUNT(orders[date])
 
-Revenue per Month = [Total Revenue]/DISTINCTCOUNT(orders[month])
+- Revenue per Month = [Total Revenue]/DISTINCTCOUNT(orders[month])
 
