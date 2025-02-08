@@ -20,7 +20,8 @@ The objective of this project is to analyze pizza sales data to gain insights in
 
 ## Data Cleaning  and Transformation
 In this Pizza Sales Analysis project, tables were joined using data modeling in Power BI to establish relationships between different datasets. The goal was to create a structured model that enables efficient data analysis and reporting.
-1. Identifying Key Tables
+
+##Identifying Key Tables
 The dataset contained multiple tables, including:
 
 •	Orders Table – Contains order details such as order ID and Date.
@@ -32,16 +33,22 @@ The dataset contained multiple tables, including:
 •	Pizza Categories Table – pizzas Type, Name, categories such as "Veg" or "Non-Veg" and ingredient
 
 
-3. Defining Relationships Using Keys
+## Defining Relationships Using Keys
 Relationships were established based on primary and foreign keys:
+
 •	Orders Table (Primary Key: OrderID) was linked to Order Details Table (Foreign Key: OrderID).
+
 •	Order Details Table (Primary Key: PizzaID) was linked to Pizzas Table (Foreign Key: PizzaID).
+
 •	Pizzas Table (Primary Key: PizzaType) was linked to Pizza Categories Table (Foreign Key: PizzaType).
 
-5. Cardinality and Relationship Type
+## Cardinality and Relationship Type
 •	The Orders Table and Order Details Table have a one-to-many relationship (one order can contain multiple pizzas).
+
 •	The Order Details Table and Pizzas Table have a many-to-one relationship (many order items can reference one pizza type).
+
 •	The Pizzas Table and Pizza Categories Table have a many-to-one relationship (many pizzas belong to one category).
+
 •	The Orders Table and Customers Table have a many-to-one relationship (many orders belong to one customer).
 
 
@@ -49,14 +56,24 @@ Relationships were established based on primary and foreign keys:
  – KPIs such as Total Sales, Average Order , and Popular Pizza Type were calculated using DAX in Power BI.
 
 price = RELATED(pizza[price])
+
 count of pizza = COUNTA(pizza[Pzza Type])
+
 Total Price = OrderDetails[Quantity]*OrderDetails[price]
+
 Total Revenue = SUM(OrderDetails[Total Price])
+
 Total Order = COUNTA(orders[order_id])
+
 Average order = [Total Revenue]/[Total Order]
+
 Order per day = [Total Order]/DISTINCTCOUNT(orders[date].[Date])
+
 Order per month = [Total Order]/DISTINCTCOUNT(orders[Month])
+
 Order per quarter = [Total Order]/DISTINCTCOUNT(orders[Quarter])
+
 Revenue per Day = [Total Revenue]/DISTINCTCOUNT(orders[date])
+
 Revenue per Month = [Total Revenue]/DISTINCTCOUNT(orders[month])
 
