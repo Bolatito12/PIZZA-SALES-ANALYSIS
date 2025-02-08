@@ -22,10 +22,15 @@ The objective of this project is to analyze pizza sales data to gain insights in
 In this Pizza Sales Analysis project, tables were joined using data modeling in Power BI to establish relationships between different datasets. The goal was to create a structured model that enables efficient data analysis and reporting.
 1. Identifying Key Tables
 The dataset contained multiple tables, including:
+
 •	Orders Table – Contains order details such as order ID and Date.
+
 •	Order Details Table – Contains item-level data, including order ID, pizza type, quantity, and price.
+
 •	Pizzas Table – Lists pizza types, sizes, and Price.
+
 •	Pizza Categories Table – pizzas Type, Name, categories such as "Veg" or "Non-Veg" and ingredient
+
 
 3. Defining Relationships Using Keys
 Relationships were established based on primary and foreign keys:
