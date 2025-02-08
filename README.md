@@ -6,6 +6,7 @@ The objective of this project is to analyze pizza sales data to gain insights in
 
 # Data Used
 -	<a href="https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=PIZZA">Dataset</a>
+-	<a href="https://github.com/Bolatito12/PIZZA-SALES-ANALYSIS/blob/main/Pizza%2BPlace%2BSales.zip">Dataset</a>
 
 ## Key Problems
 1. How many customers do we have each day? Are there any peak hours?
