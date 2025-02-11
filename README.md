@@ -52,36 +52,11 @@ Relationships were established based on primary and foreign keys:
 •	The Orders Table and Customers Table have a many-to-one relationship (many orders belong to one customer).
 
 
-## Created Measures in DAX
- – KPIs such as Total Sales, Average Order , and Popular Pizza Type were calculated using DAX in Power BI.
-
-- price = RELATED(pizza[price])
-
-- count of pizza = COUNTA(pizza[Pzza Type])
-
-- Total Price = OrderDetails[Quantity]*OrderDetails[price]
-
-- Total Revenue = SUM(OrderDetails[Total Price])
-
-- Total Order = COUNTA(orders[order_id])
-
-- Average order = [Total Revenue]/[Total Order]
-
-- Order per day = [Total Order]/DISTINCTCOUNT(orders[date].[Date])
-
-- Order per month = [Total Order]/DISTINCTCOUNT(orders[Month])
-
-- Order per quarter = [Total Order]/DISTINCTCOUNT(orders[Quarter])
-
-- Revenue per Day = [Total Revenue]/DISTINCTCOUNT(orders[date])
-
-- Revenue per Month = [Total Revenue]/DISTINCTCOUNT(orders[month])
-
-  <img width="885" alt="new pizza" src="https://github.com/user-attachments/assets/5211d160-aeb6-489a-9164-588ab02ad56d" />
+<img width="885" alt="new pizza" src="https://github.com/user-attachments/assets/5211d160-aeb6-489a-9164-588ab02ad56d" />
 
 
 
-  ## Key Insights & Business Implications
+  ## Key Insights & Business 
   
 1️ Sales Performance Analysis
 
